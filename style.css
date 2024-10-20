@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  width: 450px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #808080;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search{
+  border-bottom: 1px solid #D3D3D3;
+  width: 90%;
+  display: flex;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock{
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 60%;
+}
+.box-search{
+  width: 80%;
+  font-size: 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+
+.btn-search{
+  width: 14%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+/*Result Clima*/
+
+.tempResult{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#temp{
+  font-size: 70px;
+  color: white;
+}
+
+#tempSimbol{
+  font-size: 25px;
+  color: white;
+}
+
+.clima{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+
+#situacao-clima{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  height: 65px;
+  padding: 6px;
+}
+
+.description{
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+#background{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
